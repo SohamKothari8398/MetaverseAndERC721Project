@@ -99,7 +99,7 @@ async function mintNFT() {
   let web3 = new Web3(window.ethereum);
   let contract = new web3.eth.Contract(
     abi,
-    "0xc8788257EfF78F266d70F55917D6eE542cD733F3"
+    "Your Contract Address"
   );
 
   web3.eth.requestAccounts().then((accounts) => {
