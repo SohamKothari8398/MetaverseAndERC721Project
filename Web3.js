@@ -9,7 +9,7 @@ const polygon = new Promise((res, rej) => {
     let web3 = new Web3(window.ethereum);
     let contract = new web3.eth.Contract(
       abi,
-      "0xc8788257EfF78F266d70F55917D6eE542cD733F3"
+      "This space is for Deployed Contract Address on Polygon Testnet"
     );
 
     let accounts = await web3.eth.requestAccounts(); //array of accounts
