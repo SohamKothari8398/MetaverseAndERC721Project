@@ -3,8 +3,6 @@ import polygon from "./Web3.js";
 import abi from "./abi/abi.json" assert { type: "json" };
 
 const scene = new THREE.Scene();
-//Contract Address = 0xc8788257EfF78F266d70F55917D6eE542cD733F3
-//scene.background = new THREE.Color(0xf1ed11);
 const camera = new THREE.PerspectiveCamera(
   75,
   window.innerWidth / window.innerHeight,
